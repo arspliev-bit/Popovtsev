@@ -1,0 +1,105 @@
+# ─────────────────────────────────────────────────────────────
+# Decap CMS — admin panel config.
+# The artist opens /admin/ and edits content through simple forms.
+# (Field labels are kept in Ukrainian on purpose — that's the artist's UI.)
+# ─────────────────────────────────────────────────────────────
+
+backend:
+  # Default — Git Gateway + Netlify Identity (email login).
+  # Works once Identity and Git Gateway are enabled in Netlify.
+  name: git-gateway
+  branch: main
+
+  # ── Alternative: GitHub OAuth (more future-proof) ──
+  # Replace the block above with:
+  # name: github
+  # repo: YOUR_ACCOUNT/REPO_NAME
+  # branch: main
+
+# Lets you test the admin locally via `npx decap-server`
+# (open http://localhost:8080/admin/ after running `npx decap-server`).
+local_backend: true
+
+# Where Decap stores uploaded painting images.
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+# Admin UI language (save messages, buttons, etc.)
+locale: "uk"
+
+collections:
+  # ── Paintings (gallery + home) ──────────────────────────────
+  - name: "works"
+    label: "Картини"
+    files:
+      - name: "works"
+        label: "Список картин"
+        file: "data/works.json"
+        description: "Додавайте, видаляйте та змінюйте порядок картин. Перша позначена «На головній» картина показується на головній сторінці."
+        fields:
+          - name: "works"
+            label: "Картини"
+            label_singular: "Картина"
+            widget: "list"
+            summary: "{{fields.title}} — {{fields.year}}"
+            fields:
+              - { name: "image", label: "Фото картини", widget: "image", hint: "Портретний формат, з вшитою кольоровою смужкою збоку — у тому ж стилі, що й наявні роботи" }
+              - { name: "title", label: "Назва", widget: "string", hint: "Напр.: yellow spilled over" }
+              - { name: "year", label: "Рік", widget: "number", value_type: "int", required: false }
+              - { name: "featured", label: "Показати на головній", widget: "boolean", default: false, hint: "Перша позначена робота стає великою картиною на головній сторінці" }
+              - { name: "alt", label: "Опис для доступності (alt)", widget: "string", required: false }
+
+  # ── Color Script page ────────────────────────────────────────
+  - name: "color_script"
+    label: "Сторінка «Color Script»"
+    files:
+      - name: "color_script"
+        label: "Текст Color Script"
+        file: "data/color-script.json"
+        fields:
+          - { name: "title", label: "Заголовок", widget: "string" }
+          - { name: "body", label: "Текст", widget: "text", hint: "Абзаци розділяйте порожнім рядком" }
+          - name: "colors"
+            label: "Кольорова смужка внизу"
+            widget: "list"
+            field: { name: "color", label: "Колір", widget: "color" }
+
+  # ── About page ───────────────────────────────────────────────
+  - name: "about"
+    label: "Сторінка «About»"
+    files:
+      - name: "about"
+        label: "Текст About"
+        file: "data/about.json"
+        fields:
+          - { name: "title", label: "Заголовок", widget: "string" }
+          - { name: "body", label: "Текст", widget: "text", hint: "Абзаци розділяйте порожнім рядком" }
+          - name: "links"
+            label: "Посилання"
+            widget: "list"
+            required: false
+            fields:
+              - { name: "label", label: "Назва", widget: "string" }
+              - { name: "url", label: "Адреса (URL)", widget: "string" }
+          - name: "socials"
+            label: "Соцмережі"
+            widget: "list"
+            required: false
+            fields:
+              - { name: "platform", label: "Платформа", widget: "string" }
+              - { name: "url", label: "Адреса (URL)", widget: "string" }
+          - name: "colors"
+            label: "Кольорова смужка внизу"
+            widget: "list"
+            field: { name: "color", label: "Колір", widget: "color" }
+
+  # ── General site settings ────────────────────────────────────
+  - name: "site"
+    label: "Налаштування сайту"
+    files:
+      - name: "site"
+        label: "Назва та підвал"
+        file: "data/site.json"
+        fields:
+          - { name: "title", label: "Назва (логотип)", widget: "string" }
+          - { name: "footer", label: "Текст у підвалі", widget: "string", required: false }

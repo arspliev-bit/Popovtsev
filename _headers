@@ -1,0 +1,16 @@
+# Caching and font protection
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+  X-Content-Type-Options: nosniff
+  # Hotlink protection: by default fonts can't be loaded from other domains via CORS.
+  # After deploy you can make this explicit — uncomment and set your domain:
+  # Access-Control-Allow-Origin: https://YOUR-SITE.netlify.app
+
+/images/*
+  Cache-Control: public, max-age=2592000
+
+/css/*
+  Cache-Control: public, max-age=86400
+
+/js/*
+  Cache-Control: public, max-age=86400

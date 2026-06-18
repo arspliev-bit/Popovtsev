@@ -1,0 +1,177 @@
+/* ─────────────────────────────────────────────────────────────
+   Nordel typeface (from the design). Font files live in /fonts/.
+   While the files are missing a serif fallback is used.
+   ───────────────────────────────────────────────────────────── */
+@font-face {
+  font-family: "Nordel";
+  src: url("/fonts/Nordel-Regular.woff2") format("woff2"),
+       url("/fonts/Nordel-Regular.ttf") format("truetype");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nordel";
+  src: url("/fonts/Nordel-Semibold.woff2") format("woff2"),
+       url("/fonts/Nordel-Semibold.ttf") format("truetype");
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nordel";
+  src: url("/fonts/Nordel-Bold.woff2") format("woff2"),
+       url("/fonts/Nordel-Bold.ttf") format("truetype");
+  font-weight: 700; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Nordel";
+  src: url("/fonts/Nordel-Italic.woff2") format("woff2"),
+       url("/fonts/Nordel-Italic.ttf") format("truetype");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Nordel";
+  src: url("/fonts/Nordel-ItalicSemiBold.woff2") format("woff2"),
+       url("/fonts/Nordel-ItalicSemiBold.ttf") format("truetype");
+  font-weight: 600; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Nordel";
+  src: url("/fonts/Nordel-ItalicBold.woff2") format("woff2"),
+       url("/fonts/Nordel-ItalicBold.ttf") format("truetype");
+  font-weight: 700; font-style: italic; font-display: swap;
+}
+
+:root {
+  --ink: #1c1e21; /* Figma token Basics/$color-black */
+  --bg: #ffffff;
+  --frame: 1440px;
+  --font: "Nordel", Georgia, "Times New Roman", serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+img { display: block; max-width: 100%; height: auto; }
+
+.loading { padding: 40px 164px; font-style: italic; opacity: 0.5; }
+
+/* Centered 1440px design frame */
+.stage {
+  max-width: var(--frame);
+  margin: 0 auto;
+  background: var(--bg);
+  position: relative;
+}
+
+/* ───────── Header (exact Figma coordinates, frame 1440) ───────── */
+.site-header {
+  position: relative;
+  height: 115px;
+}
+
+.logo {
+  position: absolute;
+  left: 164px;
+  top: 25px;
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 400;
+  text-decoration: none;
+  letter-spacing: 0;
+}
+
+.nav {
+  position: absolute;
+  top: 62px;
+  right: 164px;
+  width: 332px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+.nav a {
+  text-decoration: none;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.nav a:hover { opacity: 0.6; }
+
+/* ───────── Home: full-bleed painting ───────── */
+.home {
+  padding-left: 8px;
+}
+.home .painting {
+  margin: 0;
+  width: 100%;
+}
+.home .painting img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ───────── Works (frame 1440): paintings 734px wide, centered ───────── */
+.works { max-width: 734px; margin: 0 auto; padding: 75px 0 200px; }
+.work { margin-bottom: 90px; }
+.work figure { margin: 0; }
+.work img { width: 100%; height: auto; display: block; }
+.work .caption { margin-top: 10px; font-size: 16px; line-height: normal; }
+.work .caption .title { display: block; }
+.work .caption .year { display: block; font-feature-settings: "onum", "pnum"; }
+
+/* ───────── Text pages (Color Script / About), frame 1440 ───────── */
+.text-page { padding: 23px 164px 0; }       /* body starts at top:138 (115 header + 23) */
+.text-body { max-width: 639px; }
+.text-body p { margin: 0 0 32px; font-size: 20px; line-height: normal; }
+.text-body p:last-child { margin-bottom: 0; }
+/* About: narrower text column + tighter paragraph spacing */
+.text-body.is-about { max-width: 537px; }
+.text-body.is-about p { margin: 0 0 12px; }
+
+/* About: text links (music albums / fonts library) — underline under first word only */
+.text-links { margin: 27px 0 0 95px; }
+.text-links a { display: block; font-size: 16px; text-decoration: none; margin-bottom: 11px; color: var(--ink); }
+.text-links a .u { border-bottom: 1px solid var(--ink); padding-bottom: 1px; }
+.text-links a:hover { opacity: 0.6; }
+
+/* About: contact line */
+.contact { margin: 40px 0 0; font-size: 20px; }
+.contact a { text-decoration: none; }
+.contact a:hover { opacity: 0.6; }
+
+/* About: social icons (56px slots, glyphs centered) */
+.socials { display: flex; margin-top: 60px; }
+.socials a { width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; }
+.socials a:hover { opacity: 0.6; }
+.socials img { display: block; }
+.socials .ig img { width: 24px; height: 24px; }
+.socials .full img { width: 56px; height: 56px; }
+/* Signature color-code strip (48×224 image), centered in the frame */
+.signature { margin: 160px 0; display: flex; justify-content: center; }
+.signature img { width: 48px; height: auto; display: block; }
+
+/* ───────── Responsive ───────── */
+@media (max-width: 1000px) {
+  .site-header {
+    height: auto;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 22px 24px;
+  }
+  .logo { position: static; font-size: 32px; }
+  .nav { position: static; width: auto; gap: 22px; font-size: 14px; }
+  .home { padding-left: 0; }
+  .loading { padding: 40px 24px; }
+  .works, .text-page { padding-left: 24px; padding-right: 24px; }
+  .work { flex-direction: column; gap: 14px; }
+  .work .figure { max-width: 100%; }
+}

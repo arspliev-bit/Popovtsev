@@ -1,0 +1,12 @@
+# Dependencies / temp
+node_modules/
+package-lock.json
+package.json
+_tmp/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings
+.claude/

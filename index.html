@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aronetiv</title>
+  <meta name="description" content="Aronetiv — visual artist. Color Script." />
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body data-page="home">
+  <div class="stage">
+    <header class="site-header">
+      <a href="/" class="logo" data-site-title>Aronetiv</a>
+      <nav class="nav">
+        <a href="/color-script.html">Color Script</a>
+        <a href="/works.html">Works</a>
+        <a href="/about.html">About</a>
+      </nav>
+    </header>
+
+    <main class="home" id="home">
+      <p class="loading">Loading…</p>
+    </main>
+  </div>
+
+  <script src="/js/app.js"></script>
+
+  <!-- Netlify Identity: catches invite/confirmation links and opens the admin panel. -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", function (user) {
+        if (!user) {
+          window.netlifyIdentity.on("login", function () {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+</body>
+</html>

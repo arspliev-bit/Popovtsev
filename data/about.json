@@ -1,0 +1,14 @@
+{
+  "title": "About",
+  "body": "Aronetiv is a visual artist working with limited color systems, fragmented compositions, and gestural marks.\n\nEach work is constructed using five colors only. Organic color fields collide, overlap, and dissolve into forms that exist between abstraction and recognizable imagery.\n\nRecurring symbols and color codes function as interruptions within the painted space — somewhere between ritual signs, technical markings, and an unknown language.\n\nThe works are often presented as fragments of a larger structure, where separate paintings form one shifting visual field.\n\nAlongside painting, aronetiv develops experimental music and type systems as extensions of the same visual language and structural thinking.",
+  "links": [
+    { "label": "music albums", "url": "https://linktr.ee/aronetiv" },
+    { "label": "fonts library", "url": "https://www.myfonts.com/collections/aronetiv-foundry" }
+  ],
+  "email": "hello@aronetiv.com",
+  "socials": [
+    { "platform": "Instagram", "url": "https://www.instagram.com/aronetiv/", "icon": "/images/icons/instagram.svg", "fit": "ig" },
+    { "platform": "Pinterest", "url": "https://www.pinterest.com/aronetiv/", "icon": "/images/icons/pinterest.svg", "fit": "full" },
+    { "platform": "Medium", "url": "https://medium.com/@aronetiv", "icon": "/images/icons/medium.svg", "fit": "full" }
+  ]
+}

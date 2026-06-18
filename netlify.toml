@@ -1,0 +1,10 @@
+# Netlify config for a static site (no build step).
+[build]
+  publish = "."
+  command = ""
+
+# Make /admin work even on a direct hit
+[[redirects]]
+  from = "/admin"
+  to = "/admin/"
+  status = 301

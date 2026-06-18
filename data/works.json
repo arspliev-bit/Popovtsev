@@ -1,0 +1,32 @@
+{
+  "works": [
+    {
+      "featured": true,
+      "image": "/images/works/home-painting.webp",
+      "title": "yellow spilled over",
+      "year": 2026,
+      "alt": "Abstract composition — yellow, pink, blue, purple, green"
+    },
+    {
+      "featured": false,
+      "image": "/images/works/yellow-behind-blue.webp",
+      "title": "yellow behind blue",
+      "year": 2026,
+      "alt": "Abstract composition — yellow shape behind blue fields"
+    },
+    {
+      "featured": false,
+      "image": "/images/works/yellow-in-blue.webp",
+      "title": "yellow in blue",
+      "year": 2026,
+      "alt": "Abstract composition — yellow and blue forms"
+    },
+    {
+      "featured": false,
+      "image": "/images/works/orange-red.webp",
+      "title": "orange-red",
+      "year": 2026,
+      "alt": "Abstract composition — orange and red over blue"
+    }
+  ]
+}
