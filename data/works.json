@@ -33,6 +33,11 @@
       "image": "/images/uploads/blue-blue-yellow-orange-1-.jpg",
       "title": "Blue Blue Orange",
       "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/blue-blue-yellow-orange-colorcode-.jpg",
+      "title": "blue blue yellow-orange (colorcode)"
     }
   ]
 }
