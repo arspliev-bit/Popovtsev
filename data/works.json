@@ -20,6 +20,13 @@
       "title": "orange repeats",
       "year": 2024,
       "alt": "orange repeats"
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/magenta-over-cyan.jpg",
+      "title": "magenta over cyan",
+      "year": 2026,
+      "alt": "magenta over cyan"
     }
   ]
 }
