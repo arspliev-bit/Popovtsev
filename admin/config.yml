@@ -5,16 +5,11 @@
 # ─────────────────────────────────────────────────────────────
 
 backend:
-  # Default — Git Gateway + Netlify Identity (email login).
-  # Works once Identity and Git Gateway are enabled in Netlify.
-  name: git-gateway
+  # GitHub login via OAuth (set up a GitHub OAuth App + Netlify OAuth provider).
+  # Users log in with a GitHub account that has write access to the repo.
+  name: github
+  repo: arspliev-bit/Popovtsev
   branch: main
-
-  # ── Alternative: GitHub OAuth (more future-proof) ──
-  # Replace the block above with:
-  # name: github
-  # repo: YOUR_ACCOUNT/REPO_NAME
-  # branch: main
 
 # Lets you test the admin locally via `npx decap-server`
 # (open http://localhost:8080/admin/ after running `npx decap-server`).
