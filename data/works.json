@@ -9,41 +9,10 @@
     },
     {
       "featured": false,
-      "image": "/images/works/yellow-behind-blue.webp",
-      "title": "yellow behind blue",
+      "image": "/images/uploads/ultramarine-breaks-through.jpg",
+      "title": "ultramarine breaks through",
       "year": 2026,
       "alt": "Abstract composition — yellow shape behind blue fields"
-    },
-    {
-      "featured": false,
-      "image": "/images/works/yellow-in-blue.webp",
-      "title": "yellow in blue",
-      "year": 2026,
-      "alt": "Abstract composition — yellow and blue forms"
-    },
-    {
-      "featured": false,
-      "image": "/images/works/orange-red.webp",
-      "title": "orange-red",
-      "year": 2026,
-      "alt": "Abstract composition — orange and red over blue"
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/blue-blue-yellow-orange-1-.jpg",
-      "title": "Blue Blue Orange",
-      "year": 2026
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/blue-blue-yellow-orange-colorcode-.jpg",
-      "title": "blue blue yellow-orange (colorcode)"
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/blue-blue-yellow-orange-fragment-.jpg",
-      "title": "Blue",
-      "year": 2026
     }
   ]
 }
