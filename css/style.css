@@ -1,41 +1,35 @@
 /* ─────────────────────────────────────────────────────────────
-   Nordel typeface (from the design). Font files live in /fonts/.
-   While the files are missing a serif fallback is used.
+   Nordel typeface (from the design). WOFF2 only — universally
+   supported; the .ttf source is intentionally not shipped.
    ───────────────────────────────────────────────────────────── */
 @font-face {
   font-family: "Nordel";
-  src: url("/fonts/Nordel-Regular.woff2") format("woff2"),
-       url("/fonts/Nordel-Regular.ttf") format("truetype");
+  src: url("/fonts/Nordel-Regular.woff2") format("woff2");
   font-weight: 400; font-style: normal; font-display: swap;
 }
 @font-face {
   font-family: "Nordel";
-  src: url("/fonts/Nordel-Semibold.woff2") format("woff2"),
-       url("/fonts/Nordel-Semibold.ttf") format("truetype");
+  src: url("/fonts/Nordel-Semibold.woff2") format("woff2");
   font-weight: 600; font-style: normal; font-display: swap;
 }
 @font-face {
   font-family: "Nordel";
-  src: url("/fonts/Nordel-Bold.woff2") format("woff2"),
-       url("/fonts/Nordel-Bold.ttf") format("truetype");
+  src: url("/fonts/Nordel-Bold.woff2") format("woff2");
   font-weight: 700; font-style: normal; font-display: swap;
 }
 @font-face {
   font-family: "Nordel";
-  src: url("/fonts/Nordel-Italic.woff2") format("woff2"),
-       url("/fonts/Nordel-Italic.ttf") format("truetype");
+  src: url("/fonts/Nordel-Italic.woff2") format("woff2");
   font-weight: 400; font-style: italic; font-display: swap;
 }
 @font-face {
   font-family: "Nordel";
-  src: url("/fonts/Nordel-ItalicSemiBold.woff2") format("woff2"),
-       url("/fonts/Nordel-ItalicSemiBold.ttf") format("truetype");
+  src: url("/fonts/Nordel-ItalicSemiBold.woff2") format("woff2");
   font-weight: 600; font-style: italic; font-display: swap;
 }
 @font-face {
   font-family: "Nordel";
-  src: url("/fonts/Nordel-ItalicBold.woff2") format("woff2"),
-       url("/fonts/Nordel-ItalicBold.ttf") format("truetype");
+  src: url("/fonts/Nordel-ItalicBold.woff2") format("woff2");
   font-weight: 700; font-style: italic; font-display: swap;
 }
 
@@ -125,7 +119,7 @@ img { display: block; max-width: 100%; height: auto; }
 .work img { width: 100%; height: auto; display: block; }
 .work .caption { margin-top: 10px; font-size: 16px; line-height: normal; }
 .work .caption .title { display: block; }
-.work .caption .year { display: block; font-feature-settings: "onum", "pnum"; }
+.work .caption .year { display: block; margin-top: 4px; font-feature-settings: "onum", "pnum"; }
 
 /* ───────── Text pages (Color Script / About), frame 1440 ───────── */
 .text-page { padding: 23px 164px 0; }       /* body starts at top:138 (115 header + 23) */
