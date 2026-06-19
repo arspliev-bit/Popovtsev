@@ -27,6 +27,13 @@
       "title": "magenta over cyan",
       "year": 2026,
       "alt": "magenta over cyan"
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/blue-blue-yellow-orange.jpg",
+      "title": "blue, blue, yellow-orange",
+      "year": 2026,
+      "alt": "blue, blue, yellow-orange"
     }
   ]
 }
