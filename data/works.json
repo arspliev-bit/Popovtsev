@@ -6,6 +6,18 @@
       "title": "yellow spilled over",
       "year": 2026,
       "alt": "Abstract composition — yellow, pink, blue, purple, green"
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/magenta-dominates.jpg",
+      "title": "magenta dominates",
+      "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/magenta-over-cyan.jpg",
+      "title": "magenta over cyan",
+      "year": 2026
     }
   ]
 }
