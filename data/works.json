@@ -2,38 +2,10 @@
   "works": [
     {
       "featured": true,
-      "image": "/images/works/home-painting.webp",
+      "image": "/images/uploads/yellow-spilled-over.jpg",
       "title": "yellow spilled over",
       "year": 2026,
       "alt": "Abstract composition — yellow, pink, blue, purple, green"
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/ultramarine-breaks-through.jpg",
-      "title": "ultramarine breaks through",
-      "year": 2026,
-      "alt": "Abstract composition — yellow shape behind blue fields"
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/orange-repeats.jpg",
-      "title": "orange repeats",
-      "year": 2024,
-      "alt": "orange repeats"
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/magenta-over-cyan.jpg",
-      "title": "magenta over cyan",
-      "year": 2026,
-      "alt": "magenta over cyan"
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/blue-blue-yellow-orange.jpg",
-      "title": "blue, blue, yellow-orange",
-      "year": 2026,
-      "alt": "blue, blue, yellow-orange"
     }
   ]
 }
