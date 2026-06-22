@@ -18,6 +18,24 @@
       "image": "/images/uploads/magenta-over-cyan.jpg",
       "title": "magenta over cyan",
       "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/ultramarine-breaks-through.jpg",
+      "title": "ultramarine breaks through",
+      "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/orange-repeats.jpg",
+      "title": "orange repeats",
+      "year": 2024
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/blue-blue-yellow-orange.jpg",
+      "title": "blue, blue, yellow-orange",
+      "year": 2026
     }
   ]
 }
