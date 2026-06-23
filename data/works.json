@@ -30,6 +30,12 @@
       "image": "/images/uploads/orange-repeats.jpg",
       "title": "orange repeats",
       "year": 2024
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/yellow-turns.jpg",
+      "title": "yellow turns",
+      "year": 2026
     }
   ]
 }
