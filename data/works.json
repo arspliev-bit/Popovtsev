@@ -36,6 +36,24 @@
       "image": "/images/uploads/yellow-turns.jpg",
       "title": "yellow turns",
       "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/green-spilled.jpg",
+      "title": "green spilled",
+      "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/blue-at-rest.jpg",
+      "title": "blue at rest",
+      "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/yellow-over-green-and-purple-ab.jpg",
+      "title": "yellow over green and purple",
+      "year": 2026
     }
   ]
 }
