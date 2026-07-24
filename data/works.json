@@ -1,6 +1,12 @@
 {
   "works": [
     {
+      "featured": false,
+      "image": "/images/uploads/green-triumphs.jpg",
+      "title": "green triumphs",
+      "year": 2026
+    },
+    {
       "featured": true,
       "image": "/images/uploads/yellow-spilled-over.jpg",
       "title": "yellow spilled over",
@@ -15,26 +21,26 @@
     },
     {
       "featured": false,
-      "image": "/images/uploads/magenta-over-cyan.jpg",
-      "title": "magenta over cyan",
-      "year": 2026
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/ultramarine-breaks-through.jpg",
-      "title": "ultramarine breaks through",
-      "year": 2026
-    },
-    {
-      "featured": false,
       "image": "/images/uploads/orange-repeats.jpg",
       "title": "orange repeats",
       "year": 2026
     },
     {
       "featured": false,
+      "image": "/images/uploads/magenta-over-cyan.jpg",
+      "title": "magenta over cyan",
+      "year": 2026
+    },
+    {
+      "featured": false,
       "image": "/images/uploads/yellow-turns.jpg",
       "title": "yellow turns",
+      "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/carmine-calmed-down.jpg",
+      "title": "carmine calmed down",
       "year": 2026
     },
     {
@@ -57,8 +63,20 @@
     },
     {
       "featured": false,
-      "image": "/images/uploads/green-triumphs.jpg",
-      "title": "green triumphs",
+      "image": "/images/uploads/ultramarine-breaks-through.jpg",
+      "title": "ultramarine breaks through",
+      "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/red-unwaveringly.jpg",
+      "title": "red unwaveringly",
+      "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/red-orange-dominates.jpg",
+      "title": "red-orange dominates",
       "year": 2026
     }
   ]
