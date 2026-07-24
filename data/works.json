@@ -54,6 +54,12 @@
       "image": "/images/uploads/yellow-over-green-and-purple-ab.jpg",
       "title": "yellow over green and purple",
       "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/green-triumphs.jpg",
+      "title": "green triumphs",
+      "year": 2026
     }
   ]
 }
