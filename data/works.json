@@ -21,6 +21,18 @@
     },
     {
       "featured": false,
+      "image": "/images/uploads/red-orange-is-pushing-through-pinterest-.jpg",
+      "title": "red-orange is pushing through (pinterest)",
+      "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/yellow-is-watching.jpg",
+      "title": "yellow is watching",
+      "year": 2026
+    },
+    {
+      "featured": false,
       "image": "/images/uploads/orange-repeats.jpg",
       "title": "orange repeats",
       "year": 2026
@@ -77,6 +89,12 @@
       "featured": false,
       "image": "/images/uploads/red-orange-dominates.jpg",
       "title": "red-orange dominates",
+      "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/ultramarine-embraces.jpg",
+      "title": "ultramarine embraces",
       "year": 2026
     }
   ]
