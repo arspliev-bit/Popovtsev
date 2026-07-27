@@ -64,31 +64,29 @@ img { display: block; max-width: 100%; height: auto; }
   position: relative;
 }
 
-/* ───────── Header (exact Figma coordinates, frame 1440) ───────── */
+/* ───────── Header (Figma frame 1440: 64px bar, content centered) ───────── */
 .site-header {
   position: sticky;
   top: 0;
   z-index: 10;
   background: var(--bg);
-  height: 115px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 164px;
 }
 
 .logo {
-  position: absolute;
-  left: 164px;
-  top: 25px;
   font-size: 48px;
-  line-height: 1;
+  line-height: normal;
   font-weight: 400;
   text-decoration: none;
   letter-spacing: 0;
 }
 
 .nav {
-  position: absolute;
-  top: 62px;
-  right: 164px;
-  width: 332px;
+  width: 331px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,6 +102,7 @@ img { display: block; max-width: 100%; height: auto; }
 /* ───────── Home: full-bleed painting ───────── */
 .home {
   padding-left: 8px;
+  padding-top: 51px; /* painting starts at top:115 (64 header + 51) */
 }
 .home .painting {
   margin: 0;
@@ -116,7 +115,7 @@ img { display: block; max-width: 100%; height: auto; }
 }
 
 /* ───────── Works (frame 1440): paintings 734px wide, centered ───────── */
-.works { max-width: 734px; margin: 0 auto; padding: 75px 0 200px; }
+.works { max-width: 734px; margin: 0 auto; padding: 126px 0 200px; } /* first work stays at top:190 (64 header + 126) */
 .work { margin-bottom: 90px; }
 .work figure { margin: 0; }
 .work img { width: 100%; height: auto; display: block; }
@@ -125,7 +124,7 @@ img { display: block; max-width: 100%; height: auto; }
 .work .caption .year { display: block; margin-top: 10px; font-feature-settings: "onum", "pnum"; }
 
 /* ───────── Text pages (Color Script / About), frame 1440 ───────── */
-.text-page { padding: 23px 164px 0; }       /* body starts at top:138 (115 header + 23) */
+.text-page { padding: 74px 164px 0; }       /* body starts at top:138 (64 header + 74) */
 .text-body { max-width: 639px; }
 .text-body p { margin: 0 0 32px; font-size: 20px; line-height: normal; }
 .text-body p:last-child { margin-bottom: 0; }
@@ -159,16 +158,17 @@ img { display: block; max-width: 100%; height: auto; }
 @media (max-width: 1000px) {
   .site-header {
     height: auto;
-    display: flex;
     align-items: baseline;
-    justify-content: space-between;
     padding: 22px 24px;
   }
-  .logo { position: static; font-size: 32px; }
-  .nav { position: static; width: auto; gap: 22px; font-size: 14px; }
+  .logo { font-size: 32px; }
+  .nav { width: auto; gap: 22px; font-size: 14px; }
   .home { padding-left: 0; }
   .loading { padding: 40px 24px; }
   .works, .text-page { padding-left: 24px; padding-right: 24px; }
+  .home { padding-top: 0; }
+  .works { padding-top: 75px; }
+  .text-page { padding-top: 23px; }
   .work { flex-direction: column; gap: 14px; }
   .work .figure { max-width: 100%; }
 }
