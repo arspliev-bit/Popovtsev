@@ -7,11 +7,29 @@
       "year": 2026
     },
     {
+      "featured": false,
+      "image": "/images/uploads/orange-suddenly-appeared.jpg",
+      "title": "orange suddenly appeared",
+      "year": 2026
+    },
+    {
       "featured": true,
       "image": "/images/uploads/yellow-spilled-over.jpg",
       "title": "yellow spilled over",
       "year": 2026,
       "alt": "Abstract composition — yellow, pink, blue, purple, green"
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/yellow-sleeps-pink-hangs-out-ultramarine-hopes-i.jpg",
+      "title": "Yellow sleeps, pink hangs out, ultramarine hopes I",
+      "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/yellow-yellow-blue.jpg",
+      "title": "yellow, yellow, blue",
+      "year": 2026
     },
     {
       "featured": false,
@@ -69,12 +87,6 @@
     },
     {
       "featured": false,
-      "image": "/images/uploads/yellow-over-green-and-purple-ab.jpg",
-      "title": "yellow over green and purple",
-      "year": 2026
-    },
-    {
-      "featured": false,
       "image": "/images/uploads/ultramarine-breaks-through.jpg",
       "title": "ultramarine breaks through",
       "year": 2026
@@ -95,6 +107,12 @@
       "featured": false,
       "image": "/images/uploads/ultramarine-embraces.jpg",
       "title": "ultramarine embraces",
+      "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/yellow-over-green-and-purple-a.jpg",
+      "title": "yellow over green and purple A",
       "year": 2026
     }
   ]
