@@ -2,22 +2,9 @@
   "works": [
     {
       "featured": false,
-      "image": "/images/uploads/green-triumphs.jpg",
-      "title": "green triumphs",
-      "year": 2026
-    },
-    {
-      "featured": false,
       "image": "/images/uploads/orange-suddenly-appeared.jpg",
       "title": "orange suddenly appeared",
       "year": 2026
-    },
-    {
-      "featured": true,
-      "image": "/images/uploads/yellow-spilled-over.jpg",
-      "title": "yellow spilled over",
-      "year": 2026,
-      "alt": "Abstract composition — yellow, pink, blue, purple, green"
     },
     {
       "featured": false,
@@ -29,66 +16,6 @@
       "featured": false,
       "image": "/images/uploads/yellow-yellow-blue.jpg",
       "title": "yellow, yellow, blue",
-      "year": 2026
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/magenta-dominates.jpg",
-      "title": "magenta dominates",
-      "year": 2026
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/red-orange-is-pushing-through-pinterest-.jpg",
-      "title": "red-orange is pushing through (pinterest)",
-      "year": 2026
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/yellow-is-watching.jpg",
-      "title": "yellow is watching",
-      "year": 2026
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/orange-repeats.jpg",
-      "title": "orange repeats",
-      "year": 2026
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/magenta-over-cyan.jpg",
-      "title": "magenta over cyan",
-      "year": 2026
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/yellow-turns.jpg",
-      "title": "yellow turns",
-      "year": 2026
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/carmine-calmed-down.jpg",
-      "title": "carmine calmed down",
-      "year": 2026
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/green-spilled.jpg",
-      "title": "green spilled",
-      "year": 2026
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/blue-at-rest.jpg",
-      "title": "blue at rest",
-      "year": 2026
-    },
-    {
-      "featured": false,
-      "image": "/images/uploads/ultramarine-breaks-through.jpg",
-      "title": "ultramarine breaks through",
       "year": 2026
     },
     {
@@ -105,14 +32,32 @@
     },
     {
       "featured": false,
-      "image": "/images/uploads/ultramarine-embraces.jpg",
-      "title": "ultramarine embraces",
+      "image": "/images/uploads/red-irritates-pink-settles.jpg",
+      "title": "red irritates, pink settles",
       "year": 2026
     },
     {
       "featured": false,
-      "image": "/images/uploads/yellow-over-green-and-purple-a.jpg",
-      "title": "yellow over green and purple A",
+      "image": "/images/uploads/orange-is-tense.jpg",
+      "title": "orange is tense",
+      "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/gray-watches-yellow.jpg",
+      "title": "gray watches yellow",
+      "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/blue-yearns-for-freedom.jpg",
+      "title": "blue yearns for freedom",
+      "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/blue-holds-yellow.jpg",
+      "title": "blue holds yellow",
       "year": 2026
     }
   ]
