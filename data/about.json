@@ -1,14 +1,35 @@
 {
   "title": "About",
-  "body": "Aronetiv is a visual artist working with limited color systems, fragmented compositions, and gestural marks.\n\nEach work is constructed using five colors only. Organic color fields collide, overlap, and dissolve into forms that exist between abstraction and recognizable imagery.\n\nRecurring symbols and color codes function as interruptions within the painted space — somewhere between ritual signs, technical markings, and an unknown language.\n\nThe works are often presented as fragments of a larger structure, where separate paintings form one shifting visual field.\n\nAlongside painting, aronetiv develops experimental music and type systems as extensions of the same visual language and structural thinking.",
+  "body": "Aronetiv is a visual artist whose practice centers on color, perception, and the relationships that emerge within painted space.\n\nHis paintings are built from autonomous color forms that approach, overlap, resist, contain, or remain apart. Rather than representing the visible world directly, the works create temporary pictorial realities that exist between abstraction and recognition.\n\nThe paintings develop through the act of making rather than from a predetermined composition. Each work is discovered gradually, as color, form, space, and gesture begin to define their own relationships.\n\nIndividual works often function as fragments of a larger, continuously evolving visual world.\n\nAlongside painting, Aronetiv works with experimental music and type design, exploring rhythm, structure, variation, and perception across different forms.",
   "links": [
-    { "label": "music albums", "url": "https://linktr.ee/aronetiv" },
-    { "label": "fonts library", "url": "https://www.myfonts.com/collections/aronetiv-foundry" }
+    {
+      "label": "music albums",
+      "url": "https://linktr.ee/aronetiv"
+    },
+    {
+      "label": "fonts library",
+      "url": "https://www.myfonts.com/collections/aronetiv-foundry"
+    }
   ],
   "email": "hello@aronetiv.com",
   "socials": [
-    { "platform": "Instagram", "url": "https://www.instagram.com/aronetiv/", "icon": "/images/icons/instagram.svg", "fit": "ig" },
-    { "platform": "Pinterest", "url": "https://www.pinterest.com/aronetiv/", "icon": "/images/icons/pinterest.svg", "fit": "full" },
-    { "platform": "Medium", "url": "https://medium.com/@aronetiv", "icon": "/images/icons/medium.svg", "fit": "full" }
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/aronetiv/",
+      "icon": "/images/icons/instagram.svg",
+      "fit": "ig"
+    },
+    {
+      "platform": "Pinterest",
+      "url": "https://www.pinterest.com/aronetiv/",
+      "icon": "/images/icons/pinterest.svg",
+      "fit": "full"
+    },
+    {
+      "platform": "Medium",
+      "url": "https://medium.com/@aronetiv",
+      "icon": "/images/icons/medium.svg",
+      "fit": "full"
+    }
   ]
 }
