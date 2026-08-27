@@ -47,6 +47,18 @@
       "image": "/images/uploads/blue-holds-yellow.jpg",
       "title": "blue holds yellow",
       "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/green-argues-magenta-is-silent.jpg",
+      "title": "green argues, magenta is silent",
+      "year": 2026
+    },
+    {
+      "featured": false,
+      "image": "/images/uploads/blue-insists-orange-challenges.jpg",
+      "title": "blue insists, orange challenges",
+      "year": 2026
     }
   ]
 }
